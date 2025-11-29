@@ -1,40 +1,59 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ClearMail Landing Page Documentation
+Project Overview
+ClearMail is a responsive landing page built for a smart email cleaning service. The main goal of this project was to showcase a product that helps users organize their inboxes, remove spam, and manage emails efficiently. The design focuses on clarity, simplicity, and modern UI, making it easy for users to understand the product at a glance.
+Tech Stack Used:
+•	Next.js – for building a fast and scalable React-based website
+•	Tailwind CSS – for styling with ready-to-use utility classes
+•	Vercel v0 – used to generate UI sections and components quickly
 
-## Getting Started
+What’s Included in the Project
+The landing page includes all the essential sections that make a product website look complete:
+1.	Navbar – A simple top navigation bar to guide users.
+2.	Hero Section – The first thing users see. Includes a catchy heading, a short description of the product, and a call-to-action button.
+3.	Features Section – Shows 3 main features of ClearMail:
+o	AI Spam Detection
+o	Smart Categorization
+o	1-Click Unsubscribe
+Each feature is displayed as a card with a short description.
+4.	Testimonials – Highlights real user experiences to build trust.
+5.	Pricing Section – Shows Free and Pro plans with the features included in each.
+6.	Contact Section – A simple form for users to get in touch with the team.
+7.	Footer – Contains contact info, social media links, and copyright information.
 
-First, run the development server:
+Design & Responsiveness
+•	Built mobile-first, so it works perfectly on phones, tablets, and desktops.
+•	Cards, buttons, and text scale smoothly depending on the screen size.
+•	Hover effects and subtle animations make the site feel interactive and modern.
+•	Used Tailwind CSS for rapid styling, so everything is clean and consistent.
 
-```bash
+
+
+
+
+Vercel v0 Contribution
+I used Vercel v0 to quickly generate the structure and layout of key sections:
+•	Hero section design with gradient background and CTA button
+•	Features section cards
+•	Testimonials layout
+•	Pricing cards
+•	Footer structure with social media icons
+After generating these, I customized styles and hover effects manually using Tailwind CSS.
+
+How to Run the Project
+1.	Clone the repo:
+git clone https://github.com/SanikaThorat60/Next-js-project-landing-page.git
+cd next-js-project-landing-page
+2.	Install dependencies:
+npm install
+3.	Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4.	Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Deployment
+•	The project is deployed on Vercel, making it accessible online.
+•	Live demo: https://next-js-project-landing-page-one.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Conclusion
+This project demonstrates a clean, modern landing page with all essential sections for a product website. Using Next.js and Tailwind CSS, it is fully responsive and interactive. Vercel v0 helped speed up development by generating high-quality UI components, which were then customized to match the ClearMail brand.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Next-js-project-landing-page
->>>>>>> c62b7dfe46d1d5282402bd154b4c34c72d774b89
