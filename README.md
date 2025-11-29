@@ -42,6 +42,7 @@ After generating these, I customized styles and hover effects manually using Tai
 How to Run the Project
 1.	Clone the repo:
 git clone https://github.com/SanikaThorat60/Next-js-project-landing-page.git
+
 cd next-js-project-landing-page
 2.	Install dependencies:
 npm install
